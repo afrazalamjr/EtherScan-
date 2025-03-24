@@ -11,7 +11,7 @@ app.use(express.json());
 // MongoDB connection
 const connectDB = async () => {
     try {
-        await mongoose.connect('mongodb+srv://afrazjr:dHTjdw2e9Jq43zg@atlascluster.xvgawbg.mongodb.net/', {
+        await mongoose.connect('', {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
